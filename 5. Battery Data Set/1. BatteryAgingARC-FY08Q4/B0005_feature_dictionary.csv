@@ -1,0 +1,40 @@
+feature,description
+battery_id,Battery identifier from MAT filename
+record_index,Index of record in original cycle array
+record_type,charge or discharge record type
+ambient_temp,Ambient temperature reported by dataset
+capacity,Discharge capacity in Ah; supplied by NASA for discharge records
+soh,Capacity relative to first recorded valid discharge capacity for this battery (%)
+capacity_loss_pct,Capacity loss relative to first recorded valid discharge capacity (%)
+capacity_change,Capacity difference from previous discharge record (Ah)
+degradation_rate,Negative of capacity change between consecutive discharge records (Ah/cycle interval)
+capacity_lag1,Capacity from previous discharge record
+capacity_lag2,Capacity from two discharge records earlier
+capacity_roll_mean5,Mean capacity over current and up to four prior discharge records
+capacity_roll_std5,Capacity standard deviation over current and up to four prior discharge records
+capacity_roll_slope5,Linear capacity trend over current and up to four prior discharge records
+voltage_q10,10th percentile of measured voltage
+voltage_q25,25th percentile of measured voltage
+voltage_median,Median measured voltage
+voltage_q75,75th percentile of measured voltage
+voltage_q90,90th percentile of measured voltage
+voltage_slope,Linear slope of measured voltage against time
+voltage_curve_area,Integral of voltage over time
+current_rms,Root mean square measured current
+current_abs_mean,Mean absolute measured current
+current_slope,Linear slope of measured current against time
+temp_q90,90th percentile of measured temperature
+temp_rise,Last finite minus first finite temperature
+temp_slope,Linear slope of temperature against time
+voltage_current_corr,Correlation between measured voltage and current
+voltage_temp_corr,Correlation between voltage and temperature
+current_temp_corr,Correlation between current and temperature
+measured_charge_ah,Approximate absolute-current integral in Ah
+measured_energy_wh,Approximate voltage-current power integral in Wh
+Re,Equivalent series resistance field supplied by NASA
+Rct,Charge-transfer resistance field supplied by NASA
+impedance_mag_mean,Mean magnitude of complex battery impedance
+impedance_mag_std,Standard deviation of impedance magnitude
+impedance_phase_mean,Mean phase angle of complex battery impedance (radians)
+rectified_mag_mean,Mean magnitude of rectified impedance
+rectified_mag_std,Standard deviation of rectified impedance magnitude

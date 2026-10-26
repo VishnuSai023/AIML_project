@@ -15,4 +15,6 @@ NASA_Processed/
 *.csv
 
 # Logs
-*.log
+*.log*.mat
+*.zip
+battery_discharge_measurements.csv

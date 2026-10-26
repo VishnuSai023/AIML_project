@@ -1,0 +1,94 @@
+feature,description
+battery_id,Battery identifier derived from filename
+rec,Original position of record in the MATLAB cycle array
+type,Engineered signal statistic or source measurement; inspect source units
+amb_temp,Engineered signal statistic or source measurement; inspect source units
+cyc,Consecutive discharge count within a battery
+chg_cyc,Engineered signal statistic or source measurement; inspect source units
+v_n,Engineered signal statistic or source measurement; inspect source units
+v_mean,Engineered signal statistic or source measurement; inspect source units
+v_sd,Engineered signal statistic or source measurement; inspect source units
+v_slp,Engineered signal statistic or source measurement; inspect source units
+v_first,Engineered signal statistic or source measurement; inspect source units
+v_last,Engineered signal statistic or source measurement; inspect source units
+v_chg,Engineered signal statistic or source measurement; inspect source units
+v_rms,Engineered signal statistic or source measurement; inspect source units
+i_n,Engineered signal statistic or source measurement; inspect source units
+i_mean,Engineered signal statistic or source measurement; inspect source units
+i_sd,Engineered signal statistic or source measurement; inspect source units
+i_slp,Engineered signal statistic or source measurement; inspect source units
+i_first,Engineered signal statistic or source measurement; inspect source units
+i_last,Engineered signal statistic or source measurement; inspect source units
+i_chg,Engineered signal statistic or source measurement; inspect source units
+i_rms,Engineered signal statistic or source measurement; inspect source units
+temp_n,Engineered signal statistic or source measurement; inspect source units
+temp_mean,Engineered signal statistic or source measurement; inspect source units
+temp_sd,Engineered signal statistic or source measurement; inspect source units
+temp_slp,Engineered signal statistic or source measurement; inspect source units
+temp_first,Engineered signal statistic or source measurement; inspect source units
+temp_last,Engineered signal statistic or source measurement; inspect source units
+temp_chg,Engineered signal statistic or source measurement; inspect source units
+temp_rms,Engineered signal statistic or source measurement; inspect source units
+v_drop,Engineered signal statistic or source measurement; inspect source units
+temp_rise,Engineered signal statistic or source measurement; inspect source units
+temp_peak_frac,Engineered signal statistic or source measurement; inspect source units
+i_abs_mean,Engineered signal statistic or source measurement; inspect source units
+v_at_10pct,Engineered signal statistic or source measurement; inspect source units
+v_50,Engineered signal statistic or source measurement; inspect source units
+v_at_90pct,Engineered signal statistic or source measurement; inspect source units
+v_curve_area,Engineered signal statistic or source measurement; inspect source units
+temp_above_35_frac,Engineered signal statistic or source measurement; inspect source units
+i_sign_chgs,Engineered signal statistic or source measurement; inspect source units
+duration,"Elapsed time in the record's Time signal, seconds"
+v_temp_corr,Engineered signal statistic or source measurement; inspect source units
+v_i_corr,Engineered signal statistic or source measurement; inspect source units
+i_temp_corr,Engineered signal statistic or source measurement; inspect source units
+chg_sgn_ah,"Signed current integral over time, Ah"
+chg_abs_ah,"Integral of absolute measured current over time, Ah"
+eng_sgn_wh,"Signed voltage-current integral, Wh"
+eng_abs_wh,"Integral of absolute voltage-current product, Wh"
+cap,"Capacity recorded for a discharge cycle, Ah"
+i_chg_mean,Engineered signal statistic or source measurement; inspect source units
+i_load_mean,Engineered signal statistic or source measurement; inspect source units
+v_chg_mean,Engineered signal statistic or source measurement; inspect source units
+v_load_mean,Engineered signal statistic or source measurement; inspect source units
+cap_ref,"First valid discharge capacity for this battery, Ah"
+soh,"Capacity divided by reference capacity, multiplied by 100"
+cap_loss_pct,100 minus SOH
+cap_chg,Engineered signal statistic or source measurement; inspect source units
+soh_chg,Engineered signal statistic or source measurement; inspect source units
+cap_lag1,"Previous discharge capacity, Ah"
+cap_lag2,"Capacity from two discharge cycles earlier, Ah"
+soh_lag1,Engineered signal statistic or source measurement; inspect source units
+soh_lag2,Engineered signal statistic or source measurement; inspect source units
+cap_pm5,Mean of up to five previous discharge capacities
+cap_ps5,Standard deviation of previous discharge capacities
+soh_pm5,Engineered signal statistic or source measurement; inspect source units
+cap_slp5,Linear trend in previous discharge capacities
+eol_hit,Whether this battery reached 70% SOH in observed data
+eol_cyc,Engineered signal statistic or source measurement; inspect source units
+rul_obs,Cycles to first observed 70% SOH crossing; not future prediction
+prev_chg_v_mean,Engineered signal statistic or source measurement; inspect source units
+prev_chg_v_sd,Engineered signal statistic or source measurement; inspect source units
+prev_chg_v_slp,Engineered signal statistic or source measurement; inspect source units
+prev_chg_i_mean,Engineered signal statistic or source measurement; inspect source units
+prev_chg_i_rms,Engineered signal statistic or source measurement; inspect source units
+prev_chg_i_sd,Engineered signal statistic or source measurement; inspect source units
+prev_chg_temp_mean,Engineered signal statistic or source measurement; inspect source units
+prev_chg_temp_rise,Engineered signal statistic or source measurement; inspect source units
+prev_chg_temp_slp,Engineered signal statistic or source measurement; inspect source units
+prev_chg_dur,Engineered signal statistic or source measurement; inspect source units
+prev_chg_chg_sgn_ah,Engineered signal statistic or source measurement; inspect source units
+prev_chg_chg_abs_ah,Engineered signal statistic or source measurement; inspect source units
+prev_chg_eng_sgn_wh,Engineered signal statistic or source measurement; inspect source units
+prev_chg_eng_abs_wh,Engineered signal statistic or source measurement; inspect source units
+prev_chg_i_chg_mean,Engineered signal statistic or source measurement; inspect source units
+prev_chg_v_chg_mean,Engineered signal statistic or source measurement; inspect source units
+prev_re,Engineered signal statistic or source measurement; inspect source units
+prev_rct,Engineered signal statistic or source measurement; inspect source units
+imp_mean,Engineered signal statistic or source measurement; inspect source units
+imp_std,Engineered signal statistic or source measurement; inspect source units
+imp_phase,Engineered signal statistic or source measurement; inspect source units
+imp_rect_mean,Engineered signal statistic or source measurement; inspect source units
+imp_rect_std,Engineered signal statistic or source measurement; inspect source units
+prev_rimp_phase_mean,Engineered signal statistic or source measurement; inspect source units
